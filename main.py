@@ -15,7 +15,7 @@
 from math import ceil, floor, gcd
 
 
-def main(d_max):
+def main(d_max: int) -> int:
     """
     Returns the number of distinct proper reduced fractions having denominator at most `d_max`, which are
       fractions `n/d` (where n,d are natural numbers), such that n < d, and n,d are relatively prime,
